@@ -1,0 +1,25 @@
+//variables
+@import 'variables/screens/header/header_mobile.scss';
+@import 'variables/colors/colors.scss';
+
+
+
+
+//components
+@import 'components/titles/titles.scss';
+@import 'components/logo/logo.scss';
+@import 'components/buttons/button.scss';
+@import 'components/menu/menu-mobile/menu_mobile.scss';
+@import 'components/menu/menu-mobile/menu_list_mobile.scss';
+@import 'components/banners/banner-info.scss';
+@import 'components/netparticle/netparticle.scss';
+
+
+
+
+//screens
+@import 'screens/header/header-mobile.scss';
+@import 'screens/main/main-mobile.scss';
+@import 'screens/banner/banner-mobile.scss';
+
+//responsividade

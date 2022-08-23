@@ -1,0 +1,11 @@
+.logo{
+    font-size: 20px;
+    color: $secondary-color;
+    font-weight: bolder;
+    padding: 15px;
+    transition: all .4s;
+}
+.logo:hover{
+    cursor: pointer;
+    color: $hover-secondary;
+}

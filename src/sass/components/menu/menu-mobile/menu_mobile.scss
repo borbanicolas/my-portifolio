@@ -1,0 +1,57 @@
+.menu-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;    
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+    .menu_burguer{
+        width: 25px;
+        height: 3px;
+        background-color: $off-white;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+        &:before{
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 3px;
+            background: $off-white;
+            border-radius: 5px;
+            transform: translateY(7px);
+            transition: all .5s ease-in-out;
+        }&:after{
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 3px;
+            background: $off-white;
+            border-radius: 5px;
+            transform: translateY(-7px);
+            transition: all .5s ease-in-out;
+        }
+
+
+    }
+    
+}
+        /* animation */
+        
+.menu-btn.open 
+    
+    {.menu_burguer{
+        transform: translatex(-50px);
+        background: transparent;
+        box-shadow: none;
+        z-index: 9999;
+    }
+    .menu_burguer:after{
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    .menu_burguer:before{
+        transform: rotate(-45deg) translate(35px, 35px);
+    }   
+}
