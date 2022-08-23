@@ -1,0 +1,13 @@
+button{
+    width: 70px;
+    height: 20px;
+    background: $off-white;
+    border-radius: 10%;
+    color: $hover-primary;
+    border: none;
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+    width: 69px;
+}

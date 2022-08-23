@@ -1,6 +1,6 @@
 .logo {
   font-size: 20px;
-  color: #ffff99;
+  color: #24c0eb;
   font-weight: bolder;
   padding: 15px;
   transition: all 0.4s;
@@ -9,6 +9,21 @@
 .logo:hover {
   cursor: pointer;
   color: #eec276;
+}
+
+button {
+  width: 70px;
+  height: 20px;
+  background: #fff9de;
+  border-radius: 10%;
+  color: #2b9eb3;
+  border: none;
+  font-weight: bolder;
+}
+
+button:hover {
+  cursor: pointer;
+  width: 69px;
 }
 
 .menu-btn {
@@ -83,7 +98,7 @@
   height: 60px;
 }
 .menu-list .menu_item a {
-  color: #24c0eb;
+  color: #fff9de;
   transition: all 0.3s;
 }
 .menu-list .menu_item :hover {
@@ -94,7 +109,7 @@
   opacity: 1;
   z-index: 8888;
   background-color: transparent;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(2px);
 }
 
@@ -130,11 +145,10 @@
 }
 
 .net-particle {
-  height: 100vh;
+  height: calc(100vh - 40px);
   width: auto;
 }
 .net-particle canvas {
-  height: 100%;
   width: 100%;
 }
 

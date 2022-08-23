@@ -16,7 +16,7 @@
     .menu_item{
         height: 60px;
         a{
-            color: $primary-color;
+            color: $off-white;
             transition: all .3s;
         }:hover{
             color: $hover-primary;
@@ -27,6 +27,6 @@
     opacity: 1;
     z-index: 8888;
     background-color: transparent;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(2px);
 }
