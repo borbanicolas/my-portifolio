@@ -1,13 +1,26 @@
+button {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+button:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
 button{
-    width: 70px;
-    height: 20px;
-    background: $off-white;
-    border-radius: 10%;
-    color: $hover-primary;
-    border: none;
-    font-weight: bolder;
+	position:relative;
+	top:1px;
 }
-button:hover{
-    cursor: pointer;
-    width: 69px;
-}
+
+        
