@@ -1,10 +1,11 @@
 .banner-info{
-    height:  calc(100vh - 50px);
+    height:  calc(100vh - 40px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: ;
     align-items: center;
     position: absolute;
+    justify-content: center;
     .title{
         color: $off-white;
         display: flex;

@@ -11,11 +11,10 @@
   color: #eec276;
 }
 
-button {
+.banner-button {
   background: linear-gradient(to bottom, #63b8ee 5%, #000000 110%);
   background-color: #63b8ee;
   border-radius: 100%;
-  display: inline-block;
   cursor: pointer;
   font-size: 12px;
   padding: 6px 9px;
@@ -23,6 +22,10 @@ button {
   height: 55px;
   width: 55px;
   opacity: 0.5;
+}
+
+.button-container {
+  margin-top: 60px;
 }
 
 button {
@@ -118,12 +121,12 @@ button {
 }
 
 .banner-info {
-  height: calc(100vh - 50px);
+  height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: absolute;
+  justify-content: center;
   transition: all 0.8s;
 }
 .banner-info .title {
@@ -177,11 +180,7 @@ button {
 }
 
 .banner {
-  min-height: calc(100vh - 50px);
-}
-
-.burron-containe {
-  height: 100px;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=output.css.map */
