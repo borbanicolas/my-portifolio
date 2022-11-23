@@ -1,4 +1,7 @@
 .banner-button {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 	background:linear-gradient(to bottom, #63b8ee 5%, #000000 110%);
 	background-color:#63b8ee;
 	border-radius:100%;
@@ -13,7 +16,7 @@
 	
 }
 .button-container{
-	margin-top: 60px;
+	padding-top: 50px;
 }
 button:hover {
 

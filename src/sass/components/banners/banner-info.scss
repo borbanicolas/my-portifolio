@@ -1,5 +1,5 @@
 .banner-info{
-    height:  calc(100vh - 40px);
+    height:  calc(100vh - 70px);
     display: flex;
     flex-direction: column;
     // justify-content: ;
@@ -20,7 +20,7 @@
         }
         .description{
             font-size: 12px;
-            padding: 5px 12px;
+            padding: 15px 15px;
         }
     }
     .banner-button{

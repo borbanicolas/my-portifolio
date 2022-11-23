@@ -12,6 +12,9 @@
 }
 
 .banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   background: linear-gradient(to bottom, #63b8ee 5%, #000000 110%);
   background-color: #63b8ee;
   border-radius: 100%;
@@ -25,7 +28,7 @@
 }
 
 .button-container {
-  margin-top: 60px;
+  padding-top: 50px;
 }
 
 button {
@@ -121,7 +124,7 @@ button {
 }
 
 .banner-info {
-  height: calc(100vh - 40px);
+  height: calc(100vh - 70px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,7 +144,7 @@ button {
 }
 .banner-info .title .description {
   font-size: 12px;
-  padding: 5px 12px;
+  padding: 15px 15px;
 }
 .banner-info .banner-button {
   margin-top: 10px;
@@ -152,7 +155,7 @@ button {
 }
 
 .net-particle {
-  height: calc(100vh - 50px);
+  height: calc(100vh - 100px);
   width: auto;
   display: flex;
   align-items: center;
@@ -176,11 +179,22 @@ button {
 
 .main {
   background: #070001;
-  min-height: calc(100vh - 40px);
+  height: auto;
 }
 
 .banner {
-  min-height: 100vh;
+  height: calc(100vh - 120px);
+}
+
+.too-bar {
+  background: linear-gradient(to bottom, #63b8ee 5%, #000000 170%);
+  height: 60px;
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+  padding: 0 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=output.css.map */
