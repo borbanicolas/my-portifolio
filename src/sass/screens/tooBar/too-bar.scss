@@ -1,10 +1,13 @@
 .too-bar{
-    background:linear-gradient(to bottom, #63b8ee 5%, #000000 170%);
+    background: black;
     height: 60px;   
     opacity: 0.4;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 0;
     display: flex;
     justify-content: space-around;
+}
+.hide-icon-too-bar{
+    opacity: 0;
 }
