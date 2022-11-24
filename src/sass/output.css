@@ -28,6 +28,10 @@
   opacity: 0.6;
 }
 
+.button-container {
+  margin-top: 50px;
+}
+
 button {
   position: relative;
   top: 1px;
@@ -196,6 +200,14 @@ button {
 
 .hide-icon-too-bar {
   opacity: 0;
+}
+
+.button-too-bar {
+  opacity: 0.8;
+}
+
+.button-ativo {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=output.css.map */
